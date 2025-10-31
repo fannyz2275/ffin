@@ -37,9 +37,6 @@ OPENAI_KEY_ENV = "OPENAI_API_KEY"
 
 LOGGER = logging.getLogger(__name__)
 
-"""export OPENAI_API_KEY='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'
-"""
-
 
 class TransactionType(str, enum.Enum):
     """Supported transaction directions."""
